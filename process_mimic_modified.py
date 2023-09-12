@@ -1,7 +1,5 @@
 # This script processes MIMIC-III dataset and builds longitudinal records for patients with 2+ encounter.
 # The output data are 4 pickled pandas dataframes suitable for training RETAIN-Keras
-# Originally Written by Edward Choi (mp2893@gatech.edu) https://github.com/mp2893/retain
-# Modified by Timothy Rosenflanz (timothy.rosenflanz@optum.com) to work with RETAIN-Keras
 # Usage: Put this script to the folder where MIMIC-III CSV files are located. Then execute the below command.
 # python process_mimic_modified.py ADMISSIONS.csv DIAGNOSES_ICD.csv PATIENTS.csv <output directory> <train data proportion>
 
