@@ -1,6 +1,5 @@
 # This script processes MIMIC-III dataset and builds longitudinal diagnosis records for patients with at least two visits.
 # The output data are cPickled, and suitable for training Doctor AI or RETAIN
-# Written by Edward Choi (mp2893@gatech.edu)
 # Usage: Put this script to the foler where MIMIC-III CSV files are located. Then execute the below command.
 # python process_mimic.py ADMISSIONS.csv DIAGNOSES_ICD.csv PATIENTS.csv <output file> 
 
